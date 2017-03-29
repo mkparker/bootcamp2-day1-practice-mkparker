@@ -1,5 +1,5 @@
 header {
-  height: 300px;
+  height: 350px;
   background-image: url('../images/superhero-header.png');
   background-size: cover;
   background-position: center;
@@ -24,4 +24,13 @@ li {
   .col-md-4 {
     background-color: purple;
   }
+}
+
+a {
+  color: #e40007;
+  font-size: 24px;
+}
+
+a:focus, a:hover {
+  color: green;
 }
